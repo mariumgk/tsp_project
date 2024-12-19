@@ -1,7 +1,0 @@
-Number of cities: 5
-Adjacency matrix distances:
-Miami: -1 1187 -1 -1 -1 
-Houston: -1 -1 -1 1547 -1 
-Chicago: -1 -1 -1 2015 -1 
-LosAngeles: -1 -1 -1 -1 -1 
-NewYork: -1 -1 790 3940 -1 

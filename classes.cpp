@@ -51,7 +51,7 @@ public:
         int toIndex = findCityIndex(toName);
         if (fromIndex != -1 && toIndex != -1) {
             adjacencyMatrix[fromIndex][toIndex] = RouteInfo(distance, cost, time);
-            adjacencyMatrix[toIndex][fromIndex] = RouteInfo(distance, cost, time);  // Symmetric for TSP
+            adjacencyMatrix[toIndex][fromIndex] = RouteInfo(distance, cost, time);  // Ensure the graph is symmetric
         }
     }
 
@@ -76,11 +76,9 @@ public:
             cout << setw(15) << cities[i]->name;
             for (size_t j = 0; j < cities.size(); j++) {
                 auto& route = adjacencyMatrix[i][j];
-                if (route.distance != -1) {
-                    cout << setw(15) << "D:" + to_string((int)route.distance) + " C:" + to_string((int)route.cost) + " T:" + to_string(route.time);
-                } else {
-                    cout << setw(15) << "NULL";
-                }
+                string display = route.distance == -1 ? "INF" : 
+                    ("D:" + to_string(route.distance) + " C:" + to_string(route.cost) + " T:" + to_string(route.time));
+                cout << setw(15) << display;
             }
             cout << "\n";
         }

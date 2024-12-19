@@ -1,5 +1,15 @@
-NewYork Chicago 790.0 2.0
-Chicago LosAngeles 2015.0 4.0
-NewYork LosAngeles 3940.0 5.5
-Miami Houston 1187.0 2.5
-Houston LosAngeles 1547.0 3.0
+Karachi Lahore 1220 100 21
+Karachi Islamabad 1460 120 24
+Karachi Faisalabad 1180 95 20
+Karachi Rawalpindi 1480 130 25
+Karachi Multan 970 80 16
+Lahore Islamabad 380 30 4
+Lahore Faisalabad 184 15 3
+Lahore Rawalpindi 375 30 4
+Lahore Multan 350 25 5
+Islamabad Faisalabad 327 28 3.5
+Islamabad Rawalpindi 15 2 0.5
+Islamabad Multan 546 45 7
+Faisalabad Rawalpindi 329 27 4
+Faisalabad Multan 240 20 4
+Rawalpindi Multan 566 50 8
