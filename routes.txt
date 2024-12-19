@@ -1,0 +1,5 @@
+NewYork Chicago 790.0 2.0
+Chicago LosAngeles 2015.0 4.0
+NewYork LosAngeles 3940.0 5.5
+Miami Houston 1187.0 2.5
+Houston LosAngeles 1547.0 3.0

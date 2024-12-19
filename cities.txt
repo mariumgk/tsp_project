@@ -1,0 +1,6 @@
+Karachi 24.8607 67.0011
+Lahore 31.5497 74.3436
+Islamabad 33.6844 73.0479
+Faisalabad 31.4504 73.1350
+Rawalpindi 33.5651 73.0169
+Multan 30.1575 71.5249
